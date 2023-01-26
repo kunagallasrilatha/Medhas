@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Sun Automation]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test name="A(failed)">
+    <classes>
+      <class name="com.qa.testcases2.TestfileserverInventorypage">
+        <methods>
+          <include name="inventoryRequestCreated"/>
+          <include name="checkvalidUser"/>
+          <include name="setup"/>
+          <include name="draftFileserverInventorycreation"/>
+        </methods>
+      </class> <!-- com.qa.testcases2.TestfileserverInventorypage -->
+      <class name="com.qa.testcases.TestSelfCreateAccessRequestforFileserver">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.testcases.TestSelfCreateAccessRequestforFileserver -->
+    </classes>
+  </test> <!-- A(failed) -->
+  <test name="B(failed)">
+    <classes>
+      <class name="com.qa.testcases2.TestfileserverInventorypage">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.testcases2.TestfileserverInventorypage -->
+      <class name="com.qa.testcases.TestSelfCreateAccessRequestforFileserver">
+        <methods>
+          <include name="enterfileserverDetails"/>
+          <include name="enteruserDetails"/>
+          <include name="accessRequestCreated"/>
+          <include name="checkvalidUser"/>
+          <include name="enterrequestInfo"/>
+          <include name="setUpSuite"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.testcases.TestSelfCreateAccessRequestforFileserver -->
+    </classes>
+  </test> <!-- B(failed) -->
+</suite> <!-- Failed suite [Sun Automation] -->

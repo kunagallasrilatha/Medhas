@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Check for Sunpharma System">
+
+	<listeners>
+		<listener
+			class-name="com.qa.extentreportlistener.ExtentReportListener" />
+	</listeners>
+
+
+	<test name="Test 1" parallel="methods">
+		<classes>
+			<class
+				name="com.medhas.sanity.TestInventoryTemplateApplicationcreation">
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="Test 2" parallel="methods">
+		<classes>
+			<class
+				name="com.medhas.sanity.TestcreateInventoryforApplication">
+			</class>
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.medhas.sanity.TestSendbackAccessRequestPendingApprovals">
+        <methods>
+          <include name="sendbackAccessbyHOD"/>
+          <include name="accessRequestsentback"/>
+          <include name="loginHod"/>
+          <include name="setUpSuite"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestSendbackAccessRequestPendingApprovals -->
+      <class name="com.medhas.sanity.TestnotGrantAccessRequestPendingApprovals">
+        <methods>
+          <include name="loginHod"/>
+          <include name="checkvalidsystemLITHead"/>
+          <include name="checkvalidLIT"/>
+          <include name="notGrantybyLIT"/>
+          <include name="approvalworkflowforaccessrequestwithHod"/>
+          <include name="logutfromLITHead"/>
+          <include name="approvalworkflowforaccessrequestLITHead"/>
+          <include name="accessRequestNotGranted"/>
+          <include name="logutfromHOD"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestnotGrantAccessRequestPendingApprovals -->
+      <class name="com.medhas.sanity.TestDeactivateSelfApplicationaccessforsingleuser">
+        <methods>
+          <include name="checkvalidUser"/>
+          <include name="deactivateApplicationdetails"/>
+          <include name="enterRequestInfo"/>
+          <include name="enterUserDetails"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestDeactivateSelfApplicationaccessforsingleuser -->
+      <class name="com.medhas.sanity.TestUserAccessReview">
+        <methods>
+          <include name="useraccessreview"/>
+          <include name="loginwithSystemAdmin"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestUserAccessReview -->
+      <class name="com.medhas.sanity.TestnotGrantPendingApprovalsforAppBulk">
+        <methods>
+          <include name="logutfromsystemowner"/>
+          <include name="accessRequestNotGranted"/>
+          <include name="approvalworkflowforaccessrequestsystemowner"/>
+          <include name="loginSA"/>
+          <include name="checkvalidsystemadmin"/>
+          <include name="notGrantybySystemAdmin"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestnotGrantPendingApprovalsforAppBulk -->
+      <class name="com.medhas.sanity.TestSelfCreateAccessRequestforFileserver">
+        <methods>
+          <include name="checkvalidUser"/>
+          <include name="enteruserDetails"/>
+          <include name="accessRequestCreated"/>
+          <include name="enterrequestInfo"/>
+          <include name="enterfileserverDetails"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestSelfCreateAccessRequestforFileserver -->
+      <class name="com.medhas.sanity.TestCreateOnbehalfActivedirectoryforsingleuser">
+        <methods>
+          <include name="checkvalidUser"/>
+          <include name="EnterRequestinfo"/>
+          <include name="EnterActivedirectorydetails"/>
+          <include name="EnterRemarksandesign"/>
+          <include name="EnterUserdetails"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestCreateOnbehalfActivedirectoryforsingleuser -->
+      <class name="com.medhas.sanity.TestInventoryTemplateApplicationcreation">
+        <methods>
+          <include name="basicdetailsforapplication"/>
+          <include name="OtherDetailsforapplication"/>
+          <include name="inventorytemplateforapplicationforapplication"/>
+          <include name="checkvalidUser"/>
+          <include name="VendorDetailsforapplication"/>
+          <include name="Acknowledgementforapplication"/>
+          <include name="BackuporRecovery"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestInventoryTemplateApplicationcreation -->
+      <class name="com.medhas.sanity.TestnotGrantPendingApprovalsforInfraBulk">
+        <methods>
+          <include name="checkvalidLIT"/>
+          <include name="logutfromLIHead"/>
+          <include name="loginLITHead"/>
+          <include name="notGrantybyLIT"/>
+          <include name="BulkDeactivationNotGranted"/>
+          <include name="approvalworkflowforaccessrequestLITHead"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestnotGrantPendingApprovalsforInfraBulk -->
+      <class name="com.medhas.sanity.TestRejectPendingApprovalsforInfraBulk">
+        <methods>
+          <include name="rejectAccessbyLITHead"/>
+          <include name="BulkDeactivationRequestRejected"/>
+          <include name="loginLITHead"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestRejectPendingApprovalsforInfraBulk -->
+      <class name="com.medhas.sanity.TestSaveasDraftSelfSingleCreateAccessRequestforApplication$TestSelfSingleCreateAccessRequestforApplication">
+        <methods>
+          <include name="enterrequestInfo"/>
+          <include name="submitteddraftRequest"/>
+          <include name="submitDraftRequest"/>
+          <include name="checkvalidUser"/>
+          <include name="draftRequestCreated"/>
+          <include name="enterApplicationDetails"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestSaveasDraftSelfSingleCreateAccessRequestforApplication$TestSelfSingleCreateAccessRequestforApplication -->
+      <class name="com.medhas.sanity.TestSelfReactivaterequestforOperatingsystem">
+        <methods>
+          <include name="enterUserDetails"/>
+          <include name="selectreactivaterequest"/>
+          <include name="enterrequestInfo"/>
+          <include name="checkvalidUser"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestSelfReactivaterequestforOperatingsystem -->
+      <class name="com.medhas.sanity.TestSelfMultipleCreateAccessRequestforApplication">
+        <methods>
+          <include name="addSecondappdetails"/>
+          <include name="enterReqeustInfo"/>
+          <include name="accessRequestCreated"/>
+          <include name="checkvalidUser"/>
+          <include name="addFirstappdetails"/>
+          <include name="EnterRemarksandesign"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestSelfMultipleCreateAccessRequestforApplication -->
+      <class name="com.medhas.sanity.TestApplicationRequestPendingApprovals">
+        <methods>
+          <include name="accessRequestGranted"/>
+          <include name="checkvalidsystemadmin"/>
+          <include name="approvalworkflowforaccessrequestsystemowner"/>
+          <include name="approvalworkflowforaccessrequestwithHod"/>
+          <include name="logutfromsystemowner"/>
+          <include name="approvalworkflowforaccessrequestsystemadmin"/>
+          <include name="loginHod"/>
+          <include name="checkvalidsystemowner"/>
+          <include name="logutfromHOD"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestApplicationRequestPendingApprovals -->
+      <class name="com.medhas.sanity.TestReactivateSelfApplicationaccessforsingleuser">
+        <methods>
+          <include name="EnterApplicationdetails"/>
+          <include name="EnterUserdetails"/>
+          <include name="EnterRequestinfo"/>
+          <include name="checkvalidUser"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestReactivateSelfApplicationaccessforsingleuser -->
+      <class name="com.medhas.sanity.TestImportInventoryfromGlobal">
+        <methods>
+          <include name="inventoryRequestImportedtosite"/>
+          <include name="checkvalidUser"/>
+          <include name="importinvenfromglobal"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestImportInventoryfromGlobal -->
+      <class name="com.medhas.sanity.TestCreateMultipleUsersFileserverAccess">
+        <methods>
+          <include name="accessRequestCreated"/>
+          <include name="enterfileserverDetails"/>
+          <include name="entersecondenteruserDetails"/>
+          <include name="enteruserDetails"/>
+          <include name="checkvalidUser"/>
+          <include name="enterrequestInfo"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestCreateMultipleUsersFileserverAccess -->
+      <class name="com.medhas.sanity.TestModifySelfApplicationaccessforsingleuser">
+        <methods>
+          <include name="checkvalidUser"/>
+          <include name="enterRequestInfo"/>
+          <include name="modifyRequestCreated"/>
+          <include name="enterUserDetails"/>
+          <include name="modifyApplication"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestModifySelfApplicationaccessforsingleuser -->
+      <class name="com.medhas.sanity.TestCreateMultipleUsersOSAccess">
+        <methods>
+          <include name="enterrequestInfo"/>
+          <include name="enterOperatingsystemdetails"/>
+          <include name="enteruserDetails"/>
+          <include name="accessRequestCreated"/>
+          <include name="checkvalidUser"/>
+          <include name="entersecondenteruserDetails"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestCreateMultipleUsersOSAccess -->
+      <class name="com.medhas.sanity.TestRejectAccessRequestPendingApprovals">
+        <methods>
+          <include name="rejectAccessbyHOD"/>
+          <include name="accessRequestRejected"/>
+          <include name="loginHod"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestRejectAccessRequestPendingApprovals -->
+      <class name="com.medhas.sanity.TestSelfSingleCreateAccessRequestforApplication">
+        <methods>
+          <include name="enterrequestInfo"/>
+          <include name="enterApplicationDetails"/>
+          <include name="accessRequestCreated"/>
+          <include name="checkvalidUser"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestSelfSingleCreateAccessRequestforApplication -->
+      <class name="com.medhas.sanity.TestUserAccessReviewPendingApprovals">
+        <methods>
+          <include name="logutfromSO"/>
+          <include name="Soflow"/>
+          <include name="loginSO"/>
+          <include name="QAleadflow"/>
+          <include name="logutfromQAlead"/>
+          <include name="loginQAlead"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestUserAccessReviewPendingApprovals -->
+      <class name="com.medhas.sanity.TestSelfReactivaterequestforFileserver">
+        <methods>
+          <include name="enterUserDetails"/>
+          <include name="enterrequestInfo"/>
+          <include name="checkvalidUser"/>
+          <include name="selectdeactivaterequest"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestSelfReactivaterequestforFileserver -->
+      <class name="com.medhas.sanity.TestCreateOnbehalfApplicationaccessrequestformultipleaccess">
+        <methods>
+          <include name="checkvalidUser"/>
+          <include name="EnterUserDetails"/>
+          <include name="enterSecondApplicationDetails"/>
+          <include name="EnterFirstApplicationDetails"/>
+          <include name="EnterRequestInfo"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestCreateOnbehalfApplicationaccessrequestformultipleaccess -->
+      <class name="com.medhas.sanity.TestInventoryforPendingApprovals">
+        <methods>
+          <include name="approvalflowforinvQALead"/>
+          <include name="loginwithQALead"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestInventoryforPendingApprovals -->
+      <class name="com.medhas.sanity.TestCreateMultipleAccessOperatingsystemforonbehalfsingleuser">
+        <methods>
+          <include name="accessRequestCreated"/>
+          <include name="enternewOperatingsystemdetails"/>
+          <include name="enterrequestInfo"/>
+          <include name="checkvalidUser"/>
+          <include name="enteruserDetails"/>
+          <include name="enterOperatingsystemdetails"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestCreateMultipleAccessOperatingsystemforonbehalfsingleuser -->
+      <class name="com.medhas.sanity.TestSelfDeactivaterequestforOperatingsystem">
+        <methods>
+          <include name="selectdeactivaterequest"/>
+          <include name="checkvalidUser"/>
+          <include name="enterrequestInfo"/>
+          <include name="enterUserDetails"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestSelfDeactivaterequestforOperatingsystem -->
+      <class name="com.medhas.sanity.TestCreateOnbehalfActivedirectoryformultipleusers">
+        <methods>
+          <include name="EnterActivedirectorydetails"/>
+          <include name="EnterSecondUserdetails"/>
+          <include name="checkvalidUser"/>
+          <include name="EnterRequestinfo"/>
+          <include name="EnterFirstUserdetails"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestCreateOnbehalfActivedirectoryformultipleusers -->
+      <class name="com.medhas.sanity.TestSubmitReworkRequest">
+        <methods>
+          <include name="checkvalidUser"/>
+          <include name="submitReworkRequest"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestSubmitReworkRequest -->
+      <class name="com.medhas.sanity.TestSelfModifyRequestforFileserver">
+        <methods>
+          <include name="checkvalidUser"/>
+          <include name="selectthemodifyrequest"/>
+          <include name="modifyRequestCreated"/>
+          <include name="enterrequestInfo"/>
+          <include name="enterUserDetails"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestSelfModifyRequestforFileserver -->
+      <class name="com.medhas.sanity.TestSelfModifyRequestforOperatingsystem">
+        <methods>
+          <include name="enterrequestInfo"/>
+          <include name="enterUserDetails"/>
+          <include name="modifyRequestCreated"/>
+          <include name="checkvalidUser"/>
+          <include name="selectthemodifyrequest"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestSelfModifyRequestforOperatingsystem -->
+      <class name="com.medhas.sanity.TestPendingApprovalsforInfraBulk">
+        <methods>
+          <include name="loginLITHead"/>
+          <include name="approvalworkflowforaccessrequestLITHead"/>
+          <include name="logutfromLITHead"/>
+          <include name="approvalworkflowforaccessrequestLIT"/>
+          <include name="checkvalidLIT"/>
+          <include name="BulkDeactivationRequestGranted"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestPendingApprovalsforInfraBulk -->
+      <class name="com.medhas.sanity.TestSelfCreateAccessRequestforOperatingsystem">
+        <methods>
+          <include name="enterrequestInfo"/>
+          <include name="enterOperatingsystemdetails"/>
+          <include name="enteruserDetails"/>
+          <include name="accessRequestCreated"/>
+          <include name="checkvalidUser"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestSelfCreateAccessRequestforOperatingsystem -->
+      <class name="com.medhas.sanity.TestAccessRequestPendingApprovals">
+        <methods>
+          <include name="logutfromHOD"/>
+          <include name="approvalworkflowforaccessrequestLIT"/>
+          <include name="checkvalidLIT"/>
+          <include name="approvalworkflowforaccessrequestwithHod"/>
+          <include name="logutfromLITHead"/>
+          <include name="approvalworkflowforaccessrequestLITHead"/>
+          <include name="loginHod"/>
+          <include name="checkvalidLITHead"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestAccessRequestPendingApprovals -->
+      <class name="com.medhas.sanity.TestMultipleSelfAccessRequestforFileserver">
+        <methods>
+          <include name="accessRequestCreated"/>
+          <include name="enterFileserverdetails"/>
+          <include name="enteruserDetails"/>
+          <include name="enterrequestInfo"/>
+          <include name="enternewFileserverdetails"/>
+          <include name="checkvalidUser"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestMultipleSelfAccessRequestforFileserver -->
+      <class name="com.medhas.sanity.TestcreateInventoryforApplication">
+        <methods>
+          <include name="recoverDetails"/>
+          <include name="checkvalidUser"/>
+          <include name="approverDetails"/>
+          <include name="basicDetails"/>
+          <include name="inventoryRequestCreated"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestcreateInventoryforApplication -->
+      <class name="com.medhas.sanity.TestRejectPendingApprovalsforAppBulk">
+        <methods>
+          <include name="loginSO"/>
+          <include name="BulkDeactivationRequestRejected"/>
+          <include name="rejectAccessbySO"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestRejectPendingApprovalsforAppBulk -->
+      <class name="com.medhas.sanity.TestPendingApprovalsforAppBulk">
+        <methods>
+          <include name="checkvalidsystemadmin"/>
+          <include name="loginSO"/>
+          <include name="logutfromsystemowner"/>
+          <include name="BulkDeactivationRequestGranted"/>
+          <include name="approvalworkflowforaccessrequestsystemowner"/>
+          <include name="approvalworkflowforaccessrequestsystemadmin"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestPendingApprovalsforAppBulk -->
+      <class name="com.medhas.sanity.TestnotGrantApplicationRequestPendingApprovals">
+        <methods>
+          <include name="checkvalidsystemadmin"/>
+          <include name="checkvalidsystemowner"/>
+          <include name="approvalworkflowforaccessrequestwithHod"/>
+          <include name="logutfromHOD"/>
+          <include name="loginHod"/>
+          <include name="approvalworkflowforaccessrequestsystemowner"/>
+          <include name="notGrantybySystemAdmin"/>
+          <include name="accessRequestNotGranted"/>
+          <include name="logutfromsystemowner"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestnotGrantApplicationRequestPendingApprovals -->
+      <class name="com.medhas.sanity.TestSelfDeactivaterequestforFileserver">
+        <methods>
+          <include name="enterUserDetails"/>
+          <include name="enterrequestInfo"/>
+          <include name="checkvalidUser"/>
+          <include name="selectdeactivaterequest"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestSelfDeactivaterequestforFileserver -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

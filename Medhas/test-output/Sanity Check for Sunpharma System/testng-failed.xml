@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity Check for Sunpharma System]">
+  <listeners>
+    <listener class-name="com.qa.extentreportlistener.ExtentReportListener"/>
+  </listeners>
+  <test name="Sanity Check(failed)">
+    <classes>
+      <class name="com.medhas.sanity.TestUserAccessReview">
+        <methods>
+          <include name="useraccessreview"/>
+          <include name="setUpSuite"/>
+          <include name="loginwithSystemAdmin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.medhas.sanity.TestUserAccessReview -->
+    </classes>
+  </test> <!-- Sanity Check(failed) -->
+</suite> <!-- Failed suite [Sanity Check for Sunpharma System] -->

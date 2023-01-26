@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.medhas.sanity.TestSelfMultipleCreateAccessRequestforApplication"/>
+      <class name="com.medhas.sanity.TestApplicationRequestPendingApprovals"/>
+      <class name="com.medhas.sanity.TestRejectPendingApprovalsforAppBulk"/>
+      <class name="com.medhas.sanity.TestSelfReactivaterequestforFileserver"/>
+      <class name="com.medhas.sanity.TestPendingApprovalsforAppBulk"/>
+      <class name="com.medhas.sanity.TestRejectAccessRequestPendingApprovals"/>
+      <class name="com.medhas.sanity.TestSelfCreateAccessRequestforFileserver"/>
+      <class name="com.medhas.sanity.TestSelfDeactivaterequestforFileserver"/>
+      <class name="com.medhas.sanity.TestSelfModifyRequestforOperatingsystem"/>
+      <class name="com.medhas.sanity.TestReactivateSelfApplicationaccessforsingleuser"/>
+      <class name="com.medhas.sanity.TestSelfCreateAccessRequestforOperatingsystem"/>
+      <class name="com.medhas.sanity.TestCreateOnbehalfActivedirectoryformultipleusers"/>
+      <class name="com.medhas.sanity.TestInventoryforPendingApprovals"/>
+      <class name="com.medhas.sanity.TestDeactivateSelfApplicationaccessforsingleuser"/>
+      <class name="com.medhas.sanity.TestInventoryTemplateApplicationcreation"/>
+      <class name="com.medhas.sanity.TestPendingApprovalsforInfraBulk"/>
+      <class name="com.medhas.sanity.TestnotGrantPendingApprovalsforInfraBulk"/>
+      <class name="com.medhas.sanity.TestSubmitReworkRequest"/>
+      <class name="com.medhas.sanity.TestSelfDeactivaterequestforOperatingsystem"/>
+      <class name="com.medhas.sanity.TestnotGrantPendingApprovalsforAppBulk"/>
+      <class name="com.medhas.sanity.TestSelfSingleCreateAccessRequestforApplication"/>
+      <class name="com.medhas.sanity.TestnotGrantApplicationRequestPendingApprovals"/>
+      <class name="com.medhas.sanity.TestSelfModifyRequestforFileserver"/>
+      <class name="com.medhas.sanity.TestcreateInventoryforApplication"/>
+      <class name="com.medhas.sanity.TestRejectPendingApprovalsforInfraBulk"/>
+      <class name="com.medhas.sanity.TestModifySelfApplicationaccessforsingleuser"/>
+      <class name="com.medhas.sanity.TestUserAccessReview"/>
+      <class name="com.medhas.sanity.TestSaveasDraftSelfSingleCreateAccessRequestforApplication"/>
+      <class name="com.medhas.sanity.TestSendbackAccessRequestPendingApprovals"/>
+      <class name="com.medhas.sanity.TestAccessRequestPendingApprovals"/>
+      <class name="com.medhas.sanity.TestCreateMultipleUsersFileserverAccess"/>
+      <class name="com.medhas.sanity.TestImportInventoryfromGlobal"/>
+      <class name="com.medhas.sanity.TestCreateMultipleUsersOSAccess"/>
+      <class name="com.medhas.sanity.TestUserAccessReviewPendingApprovals"/>
+      <class name="com.medhas.sanity.TestCreateOnbehalfActivedirectoryforsingleuser"/>
+      <class name="com.medhas.sanity.TestMultipleSelfAccessRequestforFileserver"/>
+      <class name="com.medhas.sanity.TestCreateOnbehalfApplicationaccessrequestformultipleaccess"/>
+      <class name="com.medhas.sanity.TestCreateMultipleAccessOperatingsystemforonbehalfsingleuser"/>
+      <class name="com.medhas.sanity.TestnotGrantAccessRequestPendingApprovals"/>
+      <class name="com.medhas.sanity.TestSelfReactivaterequestforOperatingsystem"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

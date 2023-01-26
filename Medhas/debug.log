@@ -1,0 +1,2 @@
+[0826/220121.051:ERROR:file_io_win.cc(161)] 
+CreateFile C:\Users\Shashank\AppData\Local\Temp\scoped_dir18092_15299\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
